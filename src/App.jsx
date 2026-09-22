@@ -181,8 +181,7 @@ function App() {
             <div className="section-heading left">
               <div className="eyebrow">SAMPLE PROJECTS</div>
               <h2>Built for different kinds of <em>businesses.</em></h2>
-              <p>Replace these examples with your real client projects as your portfolio grows.</p>
-            </div>
+                </div>
             <div className="work-grid">
               <article className="work-card work-a">
                 <div className="work-screen"><span>01 / BUSINESS</span><h3>Premium<br/>Business Website</h3><b>Modern • Responsive • SEO</b></div>
@@ -262,7 +261,7 @@ function App() {
                 <a className="btn btn-primary" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={18}/> WhatsApp Us</a>
                 <a className="btn btn-light" href={email}><Mail size={18}/> Email Us</a>
               </div>
-              <small>Replace the demo WhatsApp number and email in <code>src/App.jsx</code> before launch.</small>
+              {/* <small>Replace the demo WhatsApp number and email in <code>src/App.jsx</code> before launch.</small> */}
             </div>
             <div className="contact-form">
               <div className="form-row"><input placeholder="Your name" /><input placeholder="Phone / WhatsApp" /></div>
